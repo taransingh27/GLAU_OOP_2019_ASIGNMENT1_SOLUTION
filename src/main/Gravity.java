@@ -11,6 +11,8 @@ public class Gravity {
         double gravity = 9.8;
         double distance = 0.0;
         double speed = 0.0;
+        System.out.println("Distance :" + 0.5 * gravity * time * time);
+        System.out.println("Speed :" + gravity * time);
 
 
 
